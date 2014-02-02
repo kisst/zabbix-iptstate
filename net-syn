@@ -1,0 +1,4 @@
+#!/bin/bash
+
+est=`sudo iptstate --single | grep SYN | wc -l`
+echo $est
